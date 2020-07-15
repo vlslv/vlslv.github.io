@@ -1,0 +1,8 @@
+title: Vlslv.GitHub.io
+description: This is my website
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
