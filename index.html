@@ -5,6 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
 * {
   box-sizing: border-box;
 }
@@ -16,7 +19,7 @@ body {
 /* Style the header */
 .header {
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 35px;
 }
@@ -26,7 +29,7 @@ body {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 600px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -52,27 +55,30 @@ body {
 </style>
 </head>
 <body>
-<h1 title="Atributo de header1">Ejemplo de página web creada durante la reunión SWPeru del 04 de mayo del 2024</h1>
+<!--<h1 title="Atributo de header1">Ejemplo de página web creada durante la reunión SWPeru del 04 de mayo del 2024</h1>-->
 
 <div class="header">
   <h2>Clima Espacial Perú</h2>
+  <h4 title="Atributo de header1">(Banco de pruebas SWPeru)</h4>
 </div>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">Columna izquierda
-    <p title="Atributo de parágrafo">This is a paragraph <br> with a line break.</p>
+  <div class="column" style="background-color:#aaa;">Flujo de rayos X de GOES</p>
+  <img src="all_data/goes_flux7days_latest.jpg" alt="Trulli" width="96%" height="68%">
   </div>
-  <div class="column" style="background-color:#bbb;">Columna del medio
-
+  <div class="column" style="background-color:#bbb;">Viento solar ACE-SWEPAM</p>
+  <img src="all_data/solarwind_Tmag_plasma7days_ACE.jpg" alt="Trulli" width="96%" height="88%">
   </div>
-  <div class="column" style="background-color:#ccc;">Columna derecha
-
+  <div class="column" style="background-color:#ccc;">Prevision del ciclo solar de NOAA</p> 
+  <img src="all_data/swpc_sunspotcycle.jpg" alt="Trulli" width="96%" height="68%">
   </div>
 </div>
 
+<!-- 
 <div class="footer">
   <p>Hosted with GitHub Pages.</p>
 </div>
-
+-->
+  
 </body>
 </html>
